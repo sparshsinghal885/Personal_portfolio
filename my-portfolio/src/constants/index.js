@@ -1,5 +1,6 @@
 
 import project3 from "../assets/projects/project-3.jpg";
+import shoeProject from "../assets/projects/shoe-project.png";
 import project4 from "../assets/projects/project-4.jpg";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. I have honed my skills in front-end and back-end development, working extensively with technologies like HTML, CSS, JavaScript, React, and Node.js. My projects include developing responsive websites, dynamic web applications, and user-friendly interfaces.`;
@@ -38,6 +39,13 @@ export const PROJECTS = [
       "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
     technologies: ["HTML", "CSS", "React.js", "appwrite", "redux-toolkit"],
   },
+  {
+    title: "Shoe E-commerce Website",
+    image: shoeProject, 
+    description: "An e-commerce platform for shoes catering to men, women, and kids, featuring user and admin dashboards, a cart system, and a 'Buy Now' option.",
+    technologies: ["HTML", "Tailwind CSS","React", "React Redux", "Firebase"]
+  }
+  
 ];
 
 export const CONTACT = {

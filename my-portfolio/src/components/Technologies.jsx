@@ -3,6 +3,7 @@ import { RiReactjsLine } from "react-icons/ri"
 import { RiTailwindCssFill } from "react-icons/ri";
 import { FaNodeJs } from "react-icons/fa"
 import { SiAppwrite } from "react-icons/si";
+import { IoLogoFirebase } from "react-icons/io5";
 import { motion } from "framer-motion"
 
 const iconVarients = (duration) => ({
@@ -62,6 +63,14 @@ const Technologies = () => {
           animate="animate"
           className='rounded-2xl border-4 border-neutral-800 p-4'>
           <FaNodeJs className='text-7xl text-green-500' />
+        </motion.div>
+
+        <motion.div
+          variants={iconVarients(2)}
+          initial="initial"
+          animate="animate"
+          className='rounded-2xl border-4 border-neutral-800 p-4'>
+          <IoLogoFirebase className='text-7xl text-yellow-600' />
         </motion.div>
 
       </motion.div>
