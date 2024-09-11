@@ -13,14 +13,7 @@ export const EXPERIENCES = [
     role: "Web-developer",
     company: "Personal Projects",
     description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB.`,
-    technologies: ["Node.js", "React.js", "tailwind", "Mongodb"],
-  },
-  {
-    year: "2023-2024",
-    role: "Freelancer",
-    company: "Freelancing",
-    description: `Developed a web application of book-Buy-Sell using JavaScript, React.js, and Node.js for a user. Managed databases and implemented data storage solutions using MongoDB.`,
-    technologies: ["Node.js", "React.js", "tailwind", "Mongodb"],
+    technologies: ["Node.js", "React.js", "Tailwind", "Mongodb", "Express.js"],
   },
 ];
 
@@ -41,11 +34,11 @@ export const PROJECTS = [
   },
   {
     title: "Shoe E-commerce Website",
-    image: shoeProject, 
+    image: shoeProject,
     description: "An e-commerce platform for shoes catering to men, women, and kids, featuring user and admin dashboards, a cart system, and a 'Buy Now' option.",
-    technologies: ["HTML", "Tailwind CSS","React", "React Redux", "Firebase"]
+    technologies: ["HTML", "Tailwind CSS", "React", "React Redux", "Firebase"]
   }
-  
+
 ];
 
 export const CONTACT = {
