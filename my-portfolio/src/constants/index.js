@@ -3,9 +3,9 @@ import project3 from "../assets/projects/project-3.jpg";
 import shoeProject from "../assets/projects/shoe-project.png";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. I have honed my skills in front-end and back-end development, working extensively with technologies like HTML, CSS, JavaScript, React, and Node.js. My projects include developing responsive websites, dynamic web applications, and user-friendly interfaces.`;
+export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. I have honed my skills in front-end and back-end development, working extensively with technologies like HTML, CSS, JavaScript, React, and SpringBoot. My projects include developing responsive websites, dynamic web applications, and user-friendly interfaces.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. I have worked with a variety of technologies, including React, Spring, SpringBoot, MySQL and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
 
 export const EXPERIENCES = [
   {
@@ -13,7 +13,7 @@ export const EXPERIENCES = [
     role: "Web-developer",
     company: "Personal Projects",
     description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB.`,
-    technologies: ["Node.js", "React.js", "Tailwind", "Mongodb", "Express.js"],
+    technologies: ["SpringBoot", "React.js", "Tailwind", "Mongodb"],
   },
 ];
 
@@ -43,6 +43,5 @@ export const PROJECTS = [
 
 export const CONTACT = {
   address: "INDIA, U.P.",
-  phoneNo: "+91 84332 14680",
   email: "sparshsinghal885@gmail.com",
 };

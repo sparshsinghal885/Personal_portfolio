@@ -1,11 +1,12 @@
 import React from 'react'
 import { RiReactjsLine } from "react-icons/ri"
 import { RiTailwindCssFill } from "react-icons/ri";
-import { FaNodeJs } from "react-icons/fa"
+import { SiSpring } from "react-icons/si";
 import { SiAppwrite } from "react-icons/si";
 import { IoLogoFirebase } from "react-icons/io5";
-import { SiExpress, } from "react-icons/si";
+import { SiSpringboot } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
+import { SiMysql } from "react-icons/si";
 import { motion } from "framer-motion"
 
 const iconVarients = (duration) => ({
@@ -38,6 +39,22 @@ const Technologies = () => {
         className='flex flex-wrap items-center justify-center gap-4'>
 
         <motion.div
+          variants={iconVarients(6)}
+          initial="initial"
+          animate="animate"
+          className='rounded-2xl border-4 border-neutral-800 p-4'>
+          <SiSpring className='text-7xl text-green-500' />
+        </motion.div>
+
+        <motion.div
+          variants={iconVarients(3)}
+          initial="initial"
+          animate="animate"
+          className='rounded-2xl border-4 border-neutral-800 p-4'>
+          <SiSpringboot className='text-7xl text-green-600 ' />
+        </motion.div>
+
+        <motion.div
           variants={iconVarients(3)}
           initial="initial"
           animate="animate"
@@ -46,11 +63,11 @@ const Technologies = () => {
         </motion.div>
 
         <motion.div
-          variants={iconVarients(3)}
+          variants={iconVarients(4)}
           initial="initial"
           animate="animate"
           className='rounded-2xl border-4 border-neutral-800 p-4'>
-          <SiExpress className='text-7xl ' />
+          <SiMysql className='text-7xl text-cyan-700 font-bold ' />
         </motion.div>
 
         <motion.div
@@ -59,22 +76,6 @@ const Technologies = () => {
           animate="animate"
           className='rounded-2xl border-4 border-neutral-800 p-4'>
           <RiReactjsLine className='text-7xl text-cyan-400' />
-        </motion.div>
-
-        <motion.div
-          variants={iconVarients(6)}
-          initial="initial"
-          animate="animate"
-          className='rounded-2xl border-4 border-neutral-800 p-4'>
-          <FaNodeJs className='text-7xl text-green-500' />
-        </motion.div>
-
-        <motion.div
-          variants={iconVarients(3)}
-          initial="initial"
-          animate="animate"
-          className='rounded-2xl border-4 border-neutral-800 p-4'>
-          <SiAppwrite className='text-7xl text-red-600' />
         </motion.div>
 
         <motion.div
@@ -92,6 +93,15 @@ const Technologies = () => {
           className='rounded-2xl border-4 border-neutral-800 p-4'>
           <IoLogoFirebase className='text-7xl text-yellow-600' />
         </motion.div>
+
+        <motion.div
+          variants={iconVarients(3)}
+          initial="initial"
+          animate="animate"
+          className='rounded-2xl border-4 border-neutral-800 p-4'>
+          <SiAppwrite className='text-7xl text-red-600' />
+        </motion.div>
+
 
       </motion.div>
     </div>
